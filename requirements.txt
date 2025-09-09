@@ -12,3 +12,4 @@ luigi
 bonobo 
 apache-airflow 
 psycopg2
+boto3
