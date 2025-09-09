@@ -3,11 +3,12 @@ import psycopg2
 
 # establish connection to the Postgresql database
 conn = psycopg2.connect(
-    database="database-1",
+    endpoint = "database-1.c9qayseq81id.us-east-2.rds.amazonaws.com",
+    port="5432",
     user="postgres",
     password="fckngInsane94!",
-  #  host="your_host",
-  #  port="your_port"
+    region = "us-east-2c",
+    database="database-1",
 )
 
 # create a cursor object for running SQL queries
