@@ -7,7 +7,7 @@ conn = psycopg2.connect(
     port="5432",
     user="postgres",
     password="fckngInsane94!",
-    region = "us-east-2c",
+    #region = "us-east-2c",
     database="database-1",
 )
 
