@@ -1,0 +1,13 @@
+#dependencies
+pandas 
+numpy 
+dask 
+numba 
+urllib3 
+pyarrow 
+certifi 
+lxml 
+petl 
+luigi 
+bonobo 
+apache-airflow 
