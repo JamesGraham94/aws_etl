@@ -11,3 +11,4 @@ petl
 luigi 
 bonobo 
 apache-airflow 
+psycopg2
