@@ -8,18 +8,18 @@ phases:
       - echo "Installing dependencies or setup steps before the build phase"
       # < insert your code here >
       
-      - pandas : "*"
-      - numpy : "*"
-      - dask : "*"
-      - numba : "*"
-      - urllib3 : "*"
-      - pyarrow : "*"
-      - certifi : "*"
-      - lxml : "*"
-      - petl : "*"
-      - luigi : "*"
-      - bonobo : "*"
-      - apache-airflow : "*"
+      - pandas 
+      - numpy 
+      - dask 
+      - numba 
+      - urllib3 
+      - pyarrow 
+      - certifi 
+      - lxml 
+      - petl 
+      - luigi 
+      - bonobo 
+      - apache-airflow 
 
   pre_build:
     commands:
