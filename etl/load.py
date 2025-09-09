@@ -3,7 +3,7 @@ import psycopg2
 
 # establish connection to the Postgresql database
 conn = psycopg2.connect(
-    endpoint = "database-1.c9qayseq81id.us-east-2.rds.amazonaws.com",
+    host = "database-1.c9qayseq81id.us-east-2.rds.amazonaws.com",
     port="5432",
     user="postgres",
     password="fckngInsane94!",
