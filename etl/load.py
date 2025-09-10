@@ -2,14 +2,18 @@
 import psycopg2
 
 # establish connection to the Postgresql database
-conn = psycopg2.connect(
-    host = "database-1.c9qayseq81id.us-east-2.rds.amazonaws.com",
-    port="5432",
-    user="postgres",
-    password="fckngInsane94!",
-    #region = "us-east-2c",
-    database="database-1",
-)
+try:
+    conn = psycopg2.connect(
+        host="database-1.c9qayseq81id.us-east-2.rds.amazonaws.com",
+        port="5432",
+        user="postgres",
+        password="<password>",
+        database="database-1",
+        connect_timeout=30
+    )
+except psycopg2.OperationalError as e:
+    print(f"Connection failed: {e}")
+    raise
 
 # create a cursor object for running SQL queries
 cur = conn.cursor()
