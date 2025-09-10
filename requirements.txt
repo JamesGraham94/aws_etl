@@ -10,6 +10,6 @@ lxml
 petl 
 luigi 
 
-apache-airflow 
+
 psycopg2
 boto3
