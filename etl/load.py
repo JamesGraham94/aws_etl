@@ -5,7 +5,7 @@ import psycopg2
 try:
     conn = psycopg2.connect(
         host="database-1.c9qayseq81id.us-east-2.rds.amazonaws.com",
-        port="5432",
+        port=5432,
         user="postgres",
         password="<password>",
         database="database-1",
