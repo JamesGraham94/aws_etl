@@ -4,11 +4,11 @@ import psycopg2
 # establish connection to the Postgresql database
 try:
     conn = psycopg2.connect(
-        host="database-1.c9qayseq81id.us-east-2.rds.amazonaws.com",
+        host="my-postgres-instance.c454q88s4ef7.us-east-1.rds.amazonaws.com",
         port=5432,
         user="postgres",
         password="<password>",
-        database="database-1",
+        database="my-postgres-instance",
         connect_timeout=30
     )
 except psycopg2.OperationalError as e:
