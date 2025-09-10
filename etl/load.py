@@ -8,7 +8,7 @@ try:
         port=5432,
         user="postgres",
         password="fckngInsane94!",
-        database="my-postgres-instance",
+        database="postgres",
         connect_timeout=30
     )
 except psycopg2.OperationalError as e:
