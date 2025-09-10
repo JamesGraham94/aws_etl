@@ -8,7 +8,7 @@ phases:
       - echo "Installing dependencies or setup steps before the build phase"
       # < insert your code here >
       - pip install -r requirements.txt
-      - pip install bonobo 
+      #- pip install bonobo 
       
 
   pre_build:
@@ -21,7 +21,7 @@ phases:
       - python etl/extract.py
       - python etl/transform.py
       - python etl/load.py
-      - python etl/01_bonobo_pipeline.py
+      #- python etl/01_bonobo_pipeline.py
   post_build:
     commands:
       - echo "Cleaning up or performing any additional tasks after the build phase"
