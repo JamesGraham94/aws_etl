@@ -7,7 +7,7 @@ try:
         host="my-postgres-instance.c454q88s4ef7.us-east-1.rds.amazonaws.com",
         port=5432,
         user="postgres",
-        password="<password>",
+        password="fckngInsane94!",
         database="my-postgres-instance",
         connect_timeout=30
     )
