@@ -8,6 +8,7 @@ phases:
       - echo "Installing dependencies or setup steps before the build phase"
       # < insert your code here >
       - pip install -r requirements.txt
+      - pip install bonobo 
       
 
   pre_build:

@@ -9,7 +9,7 @@ certifi
 lxml 
 petl 
 luigi 
-bonobo 
+
 apache-airflow 
 psycopg2
 boto3
